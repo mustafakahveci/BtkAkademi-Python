@@ -6,6 +6,7 @@ adet = int(input("kaç defa gösterilecek : "))
 def kelimeGoster(kelime , adet): 
     for x in range(adet):
         print(kelime)
+    #print(kelime * adet)
 
 kelimeGoster(kelime,adet)
 
